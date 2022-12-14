@@ -1,4 +1,4 @@
-module app 'br/blueprints:app:1.0' = {
+module app 'br/blueprints:app:1.2' = {
   name: 'app-deploy'
   params: {
     imageName: 'nginxdemos/hello'

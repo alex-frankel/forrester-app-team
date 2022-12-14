@@ -1,10 +1,10 @@
 {
-    "moduleAliases": {
-       "ts": {},
-       "br": {
-           "blueprints": {
-               "registry": "blueprints.azurecr.io"
-           }
-       }
-    }
+  "moduleAliases": {
+      "ts": {},
+      "br": {
+          "blueprints": {
+              "registry": "blueprints.azurecr.io"
+          }
+      }
+  }
 }
