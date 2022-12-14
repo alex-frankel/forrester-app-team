@@ -18,10 +18,10 @@ jobs:
         creds: ${{ secrets.AZURE_CREDENTIALS }}    
      
     # deploy container app with updated images
-    - name: 'Deploy container app with bicep with updated images'
+    - name: 'Deploy app'
       uses: azure/arm-deploy@v1
       with:
-        subscriptionId: 986ba422-79c2-47fb-92e2-267f9798ecf4
+        subscriptionId: e93d3ee6-fac1-412f-92d6-bfb379e81af2
         resourceGroupName: CH3-Forrester
         template: ./main.bicep
         failOnStdErr: false
