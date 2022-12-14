@@ -3,7 +3,7 @@
        "ts": {},
        "br": {
            "blueprints": {
-               "registry": "forresterchallenge.azurecr.io"
+               "registry": "blueprints.azurecr.io"
            }
        }
     }
